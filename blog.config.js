@@ -1,5 +1,5 @@
 const BLOG = {
-  title: 'BilibiliHelper',
+  title: 'HQ404VZ个人网站',
   author: 'HQ404VZ',
   email: 'hq404vz@gmail.com',
   link: 'https://hq404vz.vercel.app',
@@ -51,7 +51,7 @@ const BLOG = {
       repo: ''
     },
     cusdisConfig: {
-      appId: '', // data-app-id
+      appId: 'bd5d4dba-735a-407f-a68f-cede2d81ba39', // data-app-id
       host: 'https://cusdis.com', // data-host, change this if you're using self-hosted version
       scriptSrc: 'https://cusdis.com/js/cusdis.es.js' // change this if you're using self-hosted version
     }
