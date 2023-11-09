@@ -3,6 +3,8 @@ import cn from 'classnames'
 import { config } from '@/lib/server/config'
 import tailwind from '@/tailwind.config'
 import CJK from '@/lib/cjk'
+import { Analytics } from '@vercel/analytics/react';
+
 class MyDocument extends Document {
   static async getInitialProps (ctx) {
     const initialProps = await Document.getInitialProps(ctx)
@@ -119,6 +121,7 @@ class MyDocument extends Document {
         <body className="bg-day dark:bg-night">
           <Main />
           <NextScript />
+          <Analytics />
         </body>
       </Html>
     )
